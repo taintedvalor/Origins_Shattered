@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 0 ",
+    "000",
+    " 0 "
+  ],
+  "key": {
+    "#": {
+      "item": "originsshattered:shattered_class"
+    }
+  },
+  "result": {
+    "item": "origins:orb_of_origin",
+    "count": 1,
+    "data": {
+      "Targets": [
+        {
+          "Layer": "origins-classes:class"
+        }
+      ]
+    }
+  }
+}
