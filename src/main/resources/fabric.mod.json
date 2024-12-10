@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "originsshattered",
 	"version": "${version}",
-	"name": "originsshattered",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Origins Shattered",
+	"description": "Shatters the Orb Of Origin Allowing it to be obtained within survival",
 	"authors": [
 		"valor"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/origins-shattered",
+		"sources": "https://github.com/taintedvalor/Origins_Shattered/"
 	},
 	"license": "GPL-3.0-or-later",
 	"icon": "assets/originsshattered/icon.png",
@@ -29,7 +29,8 @@
 		"fabricloader": ">=0.16.5",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"origins": "*"
 	},
 	"suggests": {
 		"another-mod": "*"
