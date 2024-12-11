@@ -21,7 +21,7 @@ public class ModLootTableModifiers {
             if(ANCIENT_CITY_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.5f)) // Drops 100% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.3f)) // Drops 100% of the time
                         .with(ItemEntry.builder(ModItems.origin_shard))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 3.0f)).build());
 
