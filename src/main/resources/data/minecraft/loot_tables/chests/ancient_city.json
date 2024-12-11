@@ -32,12 +32,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "origins:orb_of_origin",
+          "name": "originsshattered:origins_shard",
           "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_otherside"
         },
         {
           "type": "minecraft:item",
@@ -52,12 +48,9 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "originsshattered:shattered_origin",
+          "name": "originsshattered:origin_shard",
           "weight": 3
         },
-        {
-          "type": "minecraft:item",
-          "functions": [
         {
           "type": "minecraft:item",
           "functions": [
@@ -455,7 +448,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:silence_armor_trim_smithing_template"
+          "name": "minecraft:silence_armor_trim_smithing_template",
+          "weight": 4
         }
       ],
       "rolls": 1.0
