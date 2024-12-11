@@ -3,7 +3,7 @@
 	"id": "originsshattered",
 	"version": "${version}",
 	"name": "Origins Shattered",
-	"description": "Shatters the Origins into shards Allowing it to be obtained within survival",
+	"description": "Shatters Origins into shards Allowing it to be obtained within survival",
 	"authors": [
 		"valor"
 	],
@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"shattered.shattered.Originsshattered"
+			"originsshattered.originsshattered.Originsshattered"
 		],
 		"fabric-datagen": [
-			"shattered.shattered.OriginsshatteredDataGenerator"
+			"originsshattered.originsshattered.OriginsshatteredDataGenerator"
 		]
 	},
 	"mixins": [

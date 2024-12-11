@@ -1,10 +1,10 @@
-package shattered.shattered;
+package originsshattered.originsshattered;
 
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import shattered.shattered.item.ModItems;
+import originsshattered.originsshattered.item.ModItems;
 
 public class Originsshattered implements ModInitializer {
 	public static final String MOD_ID = "originsshattered";
@@ -17,6 +17,6 @@ public class Originsshattered implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("initializing origins Shattered");
 	}
 }

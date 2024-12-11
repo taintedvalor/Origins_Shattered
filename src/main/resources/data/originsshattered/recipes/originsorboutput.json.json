@@ -16,9 +16,12 @@
     "data": {
       "Targets": [
         {
-          "Layer": "origins:origin"
+          "Layer": ""
         }
-      ]
+      ],
+      "display": {
+        "Name": "{\"text\":\"Orb of Origins\",\"color\":\"gold\",\"italic\":false}"
+      }
     }
   }
 }
