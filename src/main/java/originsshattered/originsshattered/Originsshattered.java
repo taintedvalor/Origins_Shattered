@@ -17,7 +17,7 @@ public class Originsshattered implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("initializing origins Shattered");
+		LOGGER.info("Logging origins Shattered");
 		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 			ResourceManagerHelper.registerBuiltinResourcePack(
 					new Identifier(MOD_ID, "originsshattered"),
