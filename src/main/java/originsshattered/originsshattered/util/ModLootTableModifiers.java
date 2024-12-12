@@ -12,9 +12,9 @@ import net.minecraft.util.Identifier;
 
 public class ModLootTableModifiers {
     private static final Identifier ANCIENT_CITY_ID =
-            new Identifier("minecraft", "chests/ancient_city");
+            new Identifier("originsshattered", "chests/ancient_city");
     private static final Identifier WARDEN_ID =
-            new Identifier("minecraft", "entities/warden");
+            new Identifier("originsshattered", "entities/warden");
 
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
